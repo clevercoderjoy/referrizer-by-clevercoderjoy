@@ -1,0 +1,80 @@
+.hero-container {
+  font-family: "Overpass", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 95px;
+  height: 501px;
+  background-color: #23283c;
+  position: relative;
+}
+
+.hero-content {
+  width: 521px;
+  color: white;
+}
+
+.hero-content .title {
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.hero-content h2 {
+  font-size: 60px;
+  font-weight: 800;
+  line-height: 64px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.hero-content p {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28px;
+  margin-top: 16px;
+}
+
+.heroImg {
+  width: 433px;
+  height: 401px;
+  position: relative;
+  z-index: 1;
+}
+
+.blueCircle,
+.redCircle,
+.yellowCircle,
+.heroPattern {
+  position: absolute;
+}
+
+.blueCircle {
+  width: 36.67px;
+  height: 36.67px;
+  top: 93px;
+  left: 77px;
+}
+
+.redCircle {
+  width: 70px;
+  height: 70px;
+  bottom: -30px;
+  left: -20px;
+}
+
+.yellowCircle {
+  width: 39.16px;
+  height: 39.16px;
+  top: 50px;
+  right: 83px;
+}
+
+.heroPattern {
+  width: 386px;
+  height: 290px;
+  z-index: 0;
+  bottom: 0;
+  right: 5px;
+}

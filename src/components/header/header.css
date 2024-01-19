@@ -1,0 +1,35 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 3px 0;
+}
+
+.logo {
+  width: 162px;
+  height: 32px;
+}
+
+.nav-links ul {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+
+.nav-links ul li {
+  list-style-type: none;
+  color: #6d7287;
+  font-weight: 600;
+  font-size: 18px;
+  font-family: "Overpass", sans-serif;
+  cursor: pointer;
+}
+
+.auth {
+  display: flex;
+  gap: 1.25rem;
+}
+
+.auth button {
+  cursor: pointer;
+}

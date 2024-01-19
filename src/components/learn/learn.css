@@ -1,0 +1,60 @@
+.learn-container {
+  /* background-color: tomato; */
+  background-image: url("../../../public/assets/learnBg.svg");
+  width: 1110px;
+  height: 356px;
+  text-align: center;
+  margin: 5rem auto;
+}
+
+.learn-content-container {
+  height: 191px;
+  width: 763px;
+  margin: auto;
+}
+
+.learn-content {
+  padding-top: 83px;
+  font-family: "Overpass", sans-serif;
+}
+
+.learn-content h2 {
+  color: #3c4257;
+  font-weight: 800;
+  font-size: 36px;
+}
+
+.learn-content p {
+  color: #6b7b9c;
+  font-size: 16px;
+  font-weight: 400;
+  width: 493px;
+  margin: auto;
+}
+
+.learn-newsletter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem;
+}
+
+.learn-newsletter input {
+  height: 24px;
+  width: 382px;
+  border: none;
+  border-radius: 8px 0 0 8px;
+  padding: 9px 12px 9px 12px;
+  font-family: "Overpass", sans-serif;
+}
+.learn-newsletter input:focus {
+  outline: none;
+}
+
+.learn-newsletter button {
+  height: 42.5px;
+  width: 116px;
+  border-radius: 0 8px 8px 0;
+  display: inline-block;
+  padding: 8px 25px 8px 25px;
+}

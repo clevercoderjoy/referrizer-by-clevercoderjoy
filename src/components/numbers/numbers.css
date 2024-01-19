@@ -1,0 +1,56 @@
+.numbers-container {
+  margin: auto;
+  text-align: center;
+  background-color: #f3f5fd;
+  padding: 64px 0 80px 0;
+  font-family: "Overpass", sans-serif;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  margin-bottom: -12px;
+}
+
+.numbers-container h2 {
+  color: #3c4257;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 43.2px;
+  margin-bottom: 16px;
+}
+
+.numbers-container p {
+  color: #6b7b9c;
+  font-size: 18px;
+  font-weight: 400;
+  width: 660px;
+  margin: 16px auto;
+}
+
+.numbers {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 56px;
+}
+
+.number-stats {
+  width: 207px;
+  height: 139px;
+}
+
+.number {
+  color: #3c4257;
+  font-size: 90px;
+  font-weight: 700;
+  line-height: 108px;
+}
+
+.number-title {
+  color: #6b7b9c;
+  font-weight: 600;
+  font-size: 20px;
+  text-align: center;
+}

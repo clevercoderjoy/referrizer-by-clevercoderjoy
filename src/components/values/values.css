@@ -1,0 +1,52 @@
+.values-container {
+  width: 1110px;
+  height: 328px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  font-family: "Overpass", sans-serif;
+  margin: 82px auto;
+  text-align: center;
+  /* background-color: lightblue; */
+}
+
+.title {
+  color: #4c70f0;
+  font-size: 14px;
+  line-height: 21px;
+  font-weight: 600;
+}
+
+.values-container h2 {
+  color: #3c4257;
+  margin: 12px auto;
+}
+
+.values {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 203px;
+  gap: 60px;
+}
+
+.values h3 {
+  color: #47536b;
+  font-size: 36px;
+  font-weight: 800;
+}
+
+.values p {
+  color: #6b7b9c;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.value-icon-container{
+  margin-top: 30px;
+}
+
+.value-icon {
+  width: 41px;
+  height: 40px;
+}

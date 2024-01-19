@@ -1,0 +1,52 @@
+.people-container {
+  width: 1110px;
+  margin: auto;
+  height: 535px;
+  display: flex;
+  gap: 70px;
+  font-family: "Overpass", sans-serif;
+}
+
+.people-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 800px;
+}
+
+.title {
+  color: #4c70f0;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.people-content h2 {
+  color: #3c4257;
+  font-size: 36px;
+  margin-bottom: 0.5rem;
+}
+
+.people-text {
+  font-size: 16px;
+  color: #6b7b9c;
+  margin-top: 0.5rem;
+}
+.people-frame-container {
+  margin: 0;
+  padding: 0;
+  position: relative;
+}
+
+.people-frame-img {
+  height: 568px;
+  width: 549px;
+}
+
+.people-frame-pattern{
+  width: 266px;
+  height: 320px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  z-index: -1;
+}

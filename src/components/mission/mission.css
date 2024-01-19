@@ -1,0 +1,45 @@
+.mission-container {
+  width: 1110px;
+  height: 448px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 95px auto;
+  font-family: "Overpass", sans-serif;
+}
+
+.mission-content {
+  width: 480px;
+  height: 261px;
+}
+
+.title {
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 21px;
+  color: #4c70f0;
+}
+
+.mission-content h2 {
+  font-size: 36px;
+  line-height: 43.2px;
+  font-weight: 800;
+  color: #3c4257;
+  margin-top: 12px;
+}
+
+.mission-text {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #6b7b9c;
+  margin-top: 16px;
+}
+
+.mission-img {
+  height: 448px;
+  width: 580px;
+}
